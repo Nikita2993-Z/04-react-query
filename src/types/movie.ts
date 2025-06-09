@@ -1,3 +1,8 @@
+
+export interface FetchMoviesResponse {
+  results: Movie[];
+  total_pages: number;
+}
 export interface Movie {
     id: number;
     poster_path: string;
